@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background: #f1f1f1;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text{
+  text-align: center;
+  margin-bottom: 60px;
+}
+.contact-info{
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+.card{
+  background: grey;
+  padding: 0 20px;
+  margin: 0 5px;
+  width: calc(50% - 10px);
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.txt{
+  color: black;
+  position: relative;
+  margin-left: 150px;
+  border-style: solid;
+  margin-bottom: 110px;
+  background-color: red;
+}
+.card p{
+  display: inline;
+  font-weight: 300;
+  max-height: 0;
+  color: black;
+  margin-bottom: 140px;
+}
+
+/*@media screen and (max-width:800px) {
+  .contact-info{
+    flex-direction: column;
+  }
+  .card{
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+  }
+}
+*/
+
+/*-----------Responsive---------*/
+
+@media(min-width: 992px){
+ 
+}
+
+
+@media(min-width: 575px) and (max-width: 767px){
+  .contact-info{
+    flex-direction: column;
+  }
+  .card{
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+  }
+}
+
+@media(min-width: 480px) and (max-width: 574px){
+  .contact-info{
+    flex-direction: column;
+  }
+  .card{
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+  }
+}
